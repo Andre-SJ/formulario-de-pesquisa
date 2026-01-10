@@ -111,18 +111,17 @@
                     <input id="link" type="checkbox" name="social" value="linkdin">
                     <label for="link">Linkdin</label>
                     <br>
-                    
+
                     <input id="x" type="checkbox" name="social" value="x">
                     <label for="x">X</label>
                     <br>
-                    
+
                     <label for="musicStyle">Estilo musical</label>
-                    <input list="styleTypes" type="text" id="musicStyle" 
-                    name="userMusicStyle">
+                    <input list="styleTypes" type="text" id="musicStyle" name="userMusicStyle">
                     <datalist id="styleTypes">
                         <option value="rock">
                         <option value="pop">
-                        <option value="samba">  
+                        <option value="samba">
                     </datalist>
                     <br>
                     <label for="favoriteColor"> Cor favorita</label>
@@ -130,6 +129,25 @@
 
                 </fieldset>
                 <button type="submit">Enviar</button>
+
+                <fieldset>
+                    <legend>Deixa sua opinião</legend>
+                    <input type="radio" name="userOpinion" id="Otimo">
+                    <label for="Otimo">Otimo</label>
+                    <br>
+                    <input type="radio" name="userOpinion" id="Bom">
+                    <label for="Bom">Bom</label>
+                    <br>
+                    <input type="radio" name="userOpinion" id="Ruim">
+                    <label for="Ruim">Ruim</label>
+                    <br>
+                    <input type="radio" name="userOpinion" id="Pessimo">
+                    <label for="Pessimo">Pessimo</label>
+                    <br>
+                    <label for="coment">Escreva sua opinião</label>
+                    <textarea name="userComent" placeholder="comente sobre sua opinião..." id="coment"></textarea>
+
+                </fieldset>
 
 
         </form>
