@@ -16,7 +16,7 @@
 
             <!--DADOS PESSOAIS-->
 
-         <fieldset>
+            <fieldset>
 
 
                 <legend>Dados Pessoais</legend>
@@ -34,14 +34,15 @@
                 <input id="email" type="email" name="userEmail">
                 <br>
                 <label for="phone">Telefone</label>
-                <input id="phone" type="tel" name="userPhoneNumber" pattern="[0-9]{11}" placeholder="DDD + numero sem espaço">
+                <input id="phone" type="tel" name="userPhoneNumber" pattern="[0-9]{11}"
+                    placeholder="DDD + numero sem espaço">
                 <br>
                 <label for="image">Upload de foto</label>
                 <input id="image" type="file" accept="image/*" name="userImage">
 
-            </fieldset> 
+            </fieldset>
 
-             <fieldset>
+            <fieldset>
                 <legend>Perfil</legend>
 
                 <p>Genero:</p>
@@ -94,27 +95,39 @@
                     <option value="sergipe"> Sergipe</option>
                     <option value="tocantins"> Tocantins</option>
                 </select>
-                    <label for="city">Cidade:</label>
-                    <input id="city" type="text" name="userCity" 
 
-            </fieldset>
+                <label for="city">Cidade:</label>
+                <input id="city" type="text" name="userCity" </fieldset>
 
-            <fieldset>
-                <legend>Hábitos</legend>
-                <p>Redes Sociais:</p>
-                <input id="insta" type="checkbox" name="social" value="instagram">
-                <label for="insta">Instagram</label>
-                <br>
-                <input id="face" type="checkbox" name="social" value="facebook">
-                <label for="face">Facebook</label>
-                <br>
-                <input id="link" type="checkbox" name="social" value="linkdin">
-                <label for="link">Linkdin</label>
-                <br>
-                <input id="x" type="checkbox" name="social" value="x">
-                <label for="x">X</label>
-                <br>
-            </fieldset>
+                <fieldset>
+                    <legend>Hábitos</legend>
+                    <p>Redes Sociais:</p>
+                    <input id="insta" type="checkbox" name="social" value="instagram">
+                    <label for="insta">Instagram</label>
+                    <br>
+                    <input id="face" type="checkbox" name="social" value="facebook">
+                    <label for="face">Facebook</label>
+                    <br>
+                    <input id="link" type="checkbox" name="social" value="linkdin">
+                    <label for="link">Linkdin</label>
+                    <br>
+                    
+                    <input id="x" type="checkbox" name="social" value="x">
+                    <label for="x">X</label>
+                    <br>
+                    
+                    <label for="musicStyle">Estilo musical</label>
+                    <input list="styleTypes" type="text" id="musicStyle" 
+                    name="userMusicStyle">
+                    <datalist id="styleTypes">
+                        <option value="rock">
+                        <option value="pop">
+                        <option value="samba">  
+                    </datalist>
+                    <br>
+                    <label for="favoriteColor"></label>
+
+                </fieldset>
                 <button type="submit">Enviar</button>
 
 
