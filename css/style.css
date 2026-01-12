@@ -55,4 +55,29 @@ input[type="checkbox"]{
 input[type="color"]{
     width: 40px;
     padding: 0 5px;
+    border: 0;
+    background-color:#e4f0a2 ;
+}
+
+input:invalid,
+select:invalid,
+textarea:invalid{
+    border-color: red;
+}
+
+input:valid,
+select:valid,
+textarea:valid{
+    border-color: green;
+}
+
+button{
+    width: 100px;
+    height: auto;
+    background-color: rgb(240, 232, 232);
+    padding: 15px;
+    border-radius: 10px;
+    align-items: center;
+    cursor: pointer;
+   
 }
