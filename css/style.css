@@ -81,3 +81,10 @@ button{
     cursor: pointer;
    
 }
+input[type="tel"]{
+    margin-bottom: 0;
+}
+small{
+    margin-bottom: 20px;
+    display: inline-block;
+}
